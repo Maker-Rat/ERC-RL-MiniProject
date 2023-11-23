@@ -3,6 +3,8 @@ import random
 
 Env = FrozenLakeCustomEnv(render_mode="human")
 
+print(Env.P)
+
 actions = [0, 1, 2, 3]
 
 observation, info = Env.reset()
